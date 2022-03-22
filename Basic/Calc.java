@@ -34,6 +34,5 @@ public class Calc
       System.out.println("Invalid Input");
       break;
   }
-  
  }
 }
