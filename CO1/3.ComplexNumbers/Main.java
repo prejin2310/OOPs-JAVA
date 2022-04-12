@@ -1,8 +1,8 @@
-public class Main
+public class complexNumber
 {
     int r;
     int i;
-    Main(int real , int img)
+    complexNumber(int real , int img)
     {
         r = real;
         i = img;
@@ -19,8 +19,8 @@ public class Main
     }
     public static void main(String args[])
     {
-        Main first = new Main(5 ,4);
-        var second = new Main(7 ,9);
+        complexNumber first = new complexNumber(5 ,4);
+        var second = new complexNumber(7 ,9);
         System.out.println("Complex numbers are:");
         first.display();
         second.display();
